@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>course</groupId>
-  <artifactId>course</artifactId>
+  <artifactId>tomcat deploy</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>course Maven Webapp</name>
@@ -15,12 +15,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-  <snapshotRepository>
-    <id>snapshots</id>
-    <url>http://13.233.252.155:8081/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
-</distributionManagement>
+
   <build>
     <finalName>course</finalName>
   </build>
